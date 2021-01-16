@@ -18,7 +18,7 @@ nav{
     background-color:#158467;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
-    position: fixed;
+    
     z-index: 10;
 }
 h5{
@@ -28,7 +28,7 @@ h5{
 /*Styling logo*/
 .logo{
     padding:1vh 1vw;
-    text-align: center;
+    
 }
 .logo img {
     height: 3rem;
@@ -44,6 +44,7 @@ h5{
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    padding: 1%;
 }
 .nav-links li a{
     text-decoration: none;

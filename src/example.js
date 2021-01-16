@@ -27,25 +27,27 @@ class FormExampleForm extends React.Component {
     render() {
         const { results } = this.state;
         return (
-            <div>
-                <Form className="title" onSubmit={this.handleFormSubmit}>
-                    <Form.Field>
-                        <label >Enter The Product You want to look for!</label>
-                        <input placeholder="ID" onChange={this.handleInputChange} />
+            <div >
+            <div >
+                <h1 className="heading"> Indya Azolla</h1>
+                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, s dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+                <Form  onSubmit={this.handleFormSubmit}>
+                    <Form.Field >
+                        <input className="search" placeholder="What are you searching for?" onChange={this.handleInputChange} />
                     </Form.Field>
-                    <Button type="submit">Submit</Button>
+                    <Button className="button" type="submit">Submit</Button>
                 </Form>
-
-                <Segment>
-                    <Header>Results:</Header>
+    
+                <Segment > 
+                    <Header>Here's What we found</Header>
                     {results
                         ? results.map(companyRecord => (
-                            <Card fluid>
+                            <Card fluid >
                                 <Card.Content>
                                     <Card.Header>{companyRecord.product}</Card.Header>
                                     {companyRecord.subProducts.map((key, i) => (
-                                        <div key={i}>
-                                            <hr />
+                                        <div className="effects" key={i}>
                                             <Card.Description>{`Name: ${
                                                 key.name
                                             }`}</Card.Description>
@@ -62,6 +64,7 @@ class FormExampleForm extends React.Component {
                         ))
                         : []}
                 </Segment>
+            </div>
             </div>
         );
     }

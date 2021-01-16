@@ -3,6 +3,9 @@ import './contact.css';
 function Contact (){ 
  return (
     <div className="container-fluid">
+      <br/>
+    <br/>  <br/>
+      <br/>  <br/>
     <div className="row">
       <div className="col-md-6">
         <h2>Get in Touch</h2>

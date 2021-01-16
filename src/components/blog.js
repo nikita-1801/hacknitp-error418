@@ -3,7 +3,9 @@ import './app.css';
 export default function blog(){
   return(
      <div>
-       <>
+      <br/>
+    <br/>  <br/>
+      <br/>  <br/>
   <div className="row mt-5">
     <div className="col">
       <div className="card">
@@ -50,7 +52,7 @@ export default function blog(){
     </div>
   </div>
   <div className="outer"> 
-    <img src="uva-vs-uvb-whats-the-damage_192_6000856_0_14101345_500-1014x487.jpg" alt />
+    <img src="https://ak.picdn.net/shutterstock/videos/21028171/thumb/1.jpg" alt />
     <h2>What is the difference between UVA vs UVB?</h2>
     <p className="text"> 
       <br /><br />
@@ -102,9 +104,12 @@ export default function blog(){
         </div>
       </div>
     </div>
+   
   </div>
-</>
-
+  <br />
+    <br /> <br />
+    <br /> <br />
+    <br />
      </div>
   );
 }

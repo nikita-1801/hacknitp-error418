@@ -6,6 +6,7 @@ import {
   Link, 
   Switch 
 } from 'react-router-dom'; 
+import './navbar.css';
 import ReactDOM from "react-dom";
 import About from './components/about';
 import Contact from './components/contact';
@@ -15,28 +16,22 @@ import Home from "./homepage.js"
 
 function App() {
   return (
+    <div>
     <Router>
-
   <div>
-    <nav>
-        <div className="logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6-m-OchJroYRySxatXkmz3zh8w4jKpH0wA&usqp=CAU" alt="Logo Image" />
-        </div>
-        <div className="hamburger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
-        </div>
-        <ul className="nav-links">
-        <li> <Link to="/home">Home</Link> </li>
-<li> <Link to="/blog">Blog</Link> </li>
-<li> <Link to="/about">About</Link> </li>
-<li> <Link to="/contact">Contact</Link> </li>
-<li> <Link to="/tweet">Tweet</Link> </li>
+
+  <nav class="wrapper">
+        <ul>
+          <li ><Link to="/home">Home</Link> </li>
+          <li ><Link to="/blog">Blog</Link></li>
+          <li ><Link to="/about">About</Link></li>
+          <li ><Link to="/contact">Contact</Link></li>
+          <li ><Link to="/tweet">Tweet</Link></li>
         </ul>
-    </nav>
+  </nav>
+
     </div>
-    <div className="App-intro">
+    <div>
         <Route path="/home" component={Home}/>
         <Route path="/blog" component={Blog}/>
         <Route path="/about" component={About}/>
@@ -44,7 +39,7 @@ function App() {
         <Route path="/contact" component={Contact}/>
       </div>
   </Router>
-  
+  </div>
   );
 }
 
