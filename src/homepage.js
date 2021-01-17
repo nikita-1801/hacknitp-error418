@@ -3,7 +3,6 @@ import './App.css';
 import React from "react";
 import ReactDOM from "react-dom";
 import { Container, Header, List } from "semantic-ui-react";
-import Navbar from './components/navbar.js';
 import Example from './example.js';
 const Search= ({ children }) => (
     <Container style={{ margin: 20 }}>
