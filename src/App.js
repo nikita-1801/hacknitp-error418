@@ -3,8 +3,7 @@ import React from "react";
 import { 
   BrowserRouter as Router, 
   Route, 
-  Link, 
-  Switch 
+  Link 
 } from 'react-router-dom'; 
 import './navbar.css';
 import ReactDOM from "react-dom";
@@ -13,7 +12,7 @@ import Contact from './components/contact';
 import Tweet from './components/tweet';
 import Blog from './components/blog';
 import Home from "./homepage.js"
-
+import Dispose from './components/dispose';
 function App() {
   return (
     <div>
@@ -27,6 +26,7 @@ function App() {
           <li ><Link to="/about">About</Link></li>
           <li ><Link to="/contact">Contact</Link></li>
           <li ><Link to="/tweet">Tweet</Link></li>
+          <li ><Link to="/dispose">Dispose</Link></li>
         </ul>
   </nav>
 
@@ -37,6 +37,7 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/tweet" component={Tweet}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/dispose" component={Dispose}/>
       </div>
   </Router>
   </div>

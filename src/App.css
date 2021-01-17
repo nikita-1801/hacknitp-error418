@@ -9,7 +9,7 @@ body, html {
 font-size: 100px;
 color:white;
 }
-.description{
+.desc{
   margin:2% 3% 5%!important;
   color:white;
 }
@@ -18,7 +18,6 @@ color:white;
    https://free4kwallpapers.com/uploads/wallpaper/fences-gray-green-leaves-plants-stripes-wood-1280x720-wallpaper.jpg
    ) no-repeat left top;
 background-size: cover;
-
   background-size: cover;
   font-size: 20px;
   padding: 2.5% 2.5% 10%;
@@ -30,19 +29,27 @@ background-size: cover;
   margin: 0;
   
 }
-.button{
+div .ui .submit{
   height:50px ;
-  font-size: 40px;
-  width: 150px;
+  font-size: 25px;
   margin: 1.5% !important;
+  width:10% !important;
+  padding: 0;
+ 
 }
+
 .search{
-  background-color:transparent !important;
+  background-color:hsla(0, 3%, 77%, 0.5) !important;
   height: 50px;
-  color: #ffffff;
-  border: 2px solid #fffbfb !important;
+  color: #0e0000fb !important;
+  font-size: 30px !important;
+  border: 2px solid #fffbfb5d !important;
   border-radius: 81px !important;
  width:70% !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(53, 53, 53, 0.849) !important;
+  opacity: 1; /* Firefox */
 }
 .App {
   text-align: center;
@@ -82,10 +89,30 @@ background-size: cover;
     transform: rotate(360deg);
   }
 }
+
+div .ui {
+width: 100% !important;
+
+}
+
+.link{
+  text-decoration: underline;
+  color: rgb(8, 8, 8) !important;
+}
 .effects{
-  border-radius: 31px;
-background: #f2eeee;
-box-shadow:  -26px -26px 50px #969494,
-             26px 26px 50px #ffffff;
+  border-radius: 50px;
+background: #e0e0e02c;
+box-shadow:  10px 10px 40px #55cf3cfb,
+             -20px -20px 60px #ffffff;
 color: black !important;
+
+} 
+div .description
+{
+color: black !important;
+padding: 2%;
+margin: 1% !important;
+}
+.image{
+  height: 200px;
 }

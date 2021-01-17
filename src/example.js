@@ -29,41 +29,56 @@ class FormExampleForm extends React.Component {
         return (
             <div >
             <div >
-                <h1 className="heading"> Indya Azolla</h1>
-                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, s dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <h1 className="heading"> <mark>Indya Azolla</mark></h1>
+                <p className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, s dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </p>
                 <Form  onSubmit={this.handleFormSubmit}>
                     <Form.Field >
                         <input className="search" placeholder="What are you searching for?" onChange={this.handleInputChange} />
                     </Form.Field>
-                    <Button className="button" type="submit">Submit</Button>
+                    <Button className="submit" type="submit">Submit</Button>
                 </Form>
-    
-                <Segment > 
-                    <Header>Here's What we found</Header>
-                    {results
+                <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                   <br />
+                  
+                  {results
                         ? results.map(companyRecord => (
-                            <Card fluid >
+                            <Card >
                                 <Card.Content>
                                     <Card.Header>{companyRecord.product}</Card.Header>
                                     {companyRecord.subProducts.map((key, i) => (
+                                     
                                         <div className="effects" key={i}>
-                                            <Card.Description>{`Name: ${
+                                           
+                                            <Card.Description>{`${
                                                 key.name
-                                            }`}</Card.Description>
-                                            <Card.Description>{`Fun Fact: ${
+                                            }`}
+                                             <br />
+                                              <img src={key.img_src} alt className="image"/>
+                                            </Card.Description>
+                                            <Card.Description>{` ${
                                                 key.fact
                                             }`}</Card.Description>
-                                            <a href={key.link} >  <Card.Description>{`Best link to buy: ${
+                                            <a href={key.link} className="link" target="_blank">  <Card.Description>{`Best link to buy: ${
                                                 key.link
-                                            }`}</Card.Description>  </a>
+                                            } `}</Card.Description>  </a>
                                         </div>
                                     ))}
                                 </Card.Content>
                             </Card>
                         ))
                         : []}
-                </Segment>
+               
+               
             </div>
             </div>
         );
@@ -71,3 +86,4 @@ class FormExampleForm extends React.Component {
 }
 
 export default FormExampleForm;
+//  
