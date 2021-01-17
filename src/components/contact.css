@@ -1,16 +1,4 @@
-.contact-container {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background: #FCFDFD;
-}
 
-.left-col {
-  width: 45vw;
-  height: 120%;
-  background-image: url("https://images.unsplash.com/photo-1598335624134-5bceb5de202d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .right-col {
@@ -42,6 +30,67 @@
 .input {
   width: 40vw;
   display: block;
+=======
+}
+
+.right-col {
+  background: #FCFDFD;
+  width: 50vw;
+  height: 100vh;
+  padding: 10% 3.5rem;
+}
+
+h1, label, button {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color:#3F444C;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+
+p {
+  color: #818386;
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 40vw;
+  margin: 0.5rem 0 0;
+}
+
+label {
+  margin: 5% 0 1%;
+  color: #010712;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input, textarea, label {
+  width: 40vw;
+  display: block;
+}
+
+p, placeholder, input, textarea {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #818386;
+}
+
+input, textarea {
+>>>>>>> main
   color: #010712;
   font-weight: 500;
   background: #FCFDFD;
@@ -51,7 +100,7 @@
   margin-bottom: 1rem;
   outline: none;
 }
-.buttonc {
+
   text-transform: uppercase;
   font-weight: 300;
   background: #3B3636;
@@ -64,13 +113,25 @@
   cursor: pointer;
 }
 
-.buttonc:active {
+
+button:active {
   opacity: 0.8;
 }
 
-.formclass {
-  width: 31.25rem;
-  position: relative;
-  margin-top: 2rem;
-  padding: 1rem 0;
+@media only screen and (max-width: 950px) {
+
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  input, textarea, button {
+    font-size: 0.65rem;
+  }
+
+  button {
+    width: 7rem;
+  }
 }
+>>>>>>> main

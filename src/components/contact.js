@@ -2,11 +2,7 @@ import React from 'react';
 import './contact.css';
 function Contact (){ 
  return (
-   <div>
-    <>
-<div className="contact-container">
-  <div className="left-col">
-   
+
   </div>
   <div className="right-col">
     <h1 className="head">Get in Touch</h1>
