@@ -18,6 +18,7 @@ contact us page:https://agile-meadow-84802.herokuapp.com/contact \
 blog page: https://agile-meadow-84802.herokuapp.com/blog \
 about us page: https://agile-meadow-84802.herokuapp.com/about \
 dispose page: https://agile-meadow-84802.herokuapp.com/dispose \
+![dispose page](https://github.com/nikita-1801/hacknitp-error418/blob/main/dispose.JPG)
 tweets page: https://agile-meadow-84802.herokuapp.com/tweet \
  
 ### Video-
