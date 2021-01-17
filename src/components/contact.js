@@ -2,36 +2,23 @@ import React from 'react';
 import './contact.css';
 function Contact (){ 
  return (
-    <div className="container-fluid">
-    <div className="row">
-      <div className="col-md-6">
-        <h2>Get in Touch</h2>
-        <br />
-        <p>Want to get in touch? We'd love to hear from you. Fill out the form and we'll contact you soon.</p>
-        <br />
-        <p>Urgent? Ring us up- 8888888888</p>
-        <p>Or directly email us on me@email.com</p>
-        <br />
-        <p>Know more about us!</p>
-        <a href="www.facebook.com"><i className="fab fa-facebook" /></a>
-        <a href="www.instagram.com"><i className="fab fa-instagram" /></a>
-        <a href="www.twitter.com"><i className="fab fa-twitter" /></a>
-        <a href="www.linkedin.com"><i className="fab fa-linkedin" /></a>
+    <div className="contact-container">
+      <div className="left-col">
+//         <br />
       </div>
-      <div className="col-md-6">
+      <div className="right-col">
+        <h1>Get in Touch</h1>
+        <p>Have any queries, complaints or suggestions? Please leave a message down below and our team will get back to you at the earliest!</p>
         <form action="mailto:me@email.com" method="post" encType="text/plain">
-          <label htmlFor="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name" />
-          <label htmlFor="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name" />
-          <label htmlFor="email">Email Address</label>
-          <input type="email" id="email" name="emailaddress" required placeholder="Your email address" />
-          <label htmlFor="subject">Message</label>
-          <textarea id="subject" name="subject" required placeholder="What can we do for you?" style={{height: 200}} defaultValue={""} />
-          <input type="submit" defaultValue="Send" />
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+          <label for="message">Message</label>
+          <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+          <button type="submit" name="submit">Send</button>
         </form>
       </div>
-    </div>
   </div>
 
  );
