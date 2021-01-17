@@ -1,0 +1,55 @@
+body {
+    font-size: 100%;
+    background: transparent !important; 
+    color:black !important;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+     background-color: transparent !important; 
+    opacity: 60%;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.95);
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
+    background-color: transparent !important; 
+}
+
+nav {
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+nav a{
+    color:black !important;
+    opacity: 100% ;
+    background: transparent !important; 
+}
+nav li :hover{
+    color: hsl(84, 68%, 38%) !important;
+    background: transparent !important; 
+}
+nav li {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 7%;
+    background: transparent !important; 
+    color:black !important;
+}
+.logoimg{
+    height:200px;
+    padding-top: 4%;
+    margin:0;
+}
