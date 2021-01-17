@@ -1,0 +1,76 @@
+.contact-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #FCFDFD;
+}
+
+.left-col {
+  width: 45vw;
+  height: 120%;
+  background-image: url("https://images.unsplash.com/photo-1598335624134-5bceb5de202d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-col {
+  background: #FCFDFD;
+  width: 50vw;
+  height: 100vh;
+  padding: 10% 3.5rem;
+}
+.head {
+  color:#3F444C;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+}
+.para {
+  color: #818386;
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 40vw;
+  margin: 0.5rem 0 0;
+}
+.labelform {
+  margin: 5% 0 1%;
+  color: #010712;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+.input {
+  width: 40vw;
+  display: block;
+  color: #010712;
+  font-weight: 500;
+  background: #FCFDFD;
+  border: none;
+  border-bottom: 1px solid #010712;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.buttonc {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: #3B3636;
+  color: #FCFDFD;
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttonc:active {
+  opacity: 0.8;
+}
+
+.formclass {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
