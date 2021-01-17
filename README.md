@@ -7,11 +7,19 @@ A one-stop destination for all our eco-friendly needs
 - Clone this project to your local machine
 - Open terminal and <b>cd</b> into the cloned folder, usually <b>cd hacknitp-error418</b>
 - Run <b>npm i</b> to install dependencies
-- Run <b>npm start</b> in to open the app OR open [http://localhost:3000](http://localhost:3000) to view it in the browser
+- Run <b>npm start</b> in to open the app AND open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Submissions
 ### Live version-
-https://agile-meadow-84802.herokuapp.com/home
+Due to some erros in the deployement, the actual site is a litle bit different from the original project
+
+home page :https://agile-meadow-84802.herokuapp.com/home
+contact us page:https://agile-meadow-84802.herokuapp.com/contact
+blog page: https://agile-meadow-84802.herokuapp.com/blog
+about us page: https://agile-meadow-84802.herokuapp.com/about
+dispose page: https://agile-meadow-84802.herokuapp.com/dispose
+tweets page: https://agile-meadow-84802.herokuapp.com/tweet
+
 ### Video-
 
 ### Presentation-
