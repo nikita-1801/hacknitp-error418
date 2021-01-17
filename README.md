@@ -13,13 +13,13 @@ A one-stop destination for all our eco-friendly needs
 ### Live version-
 Due to some erros in the deployement, the actual site is a litle bit different from the original project
 
-home page :https://agile-meadow-84802.herokuapp.com/home
-contact us page:https://agile-meadow-84802.herokuapp.com/contact
-blog page: https://agile-meadow-84802.herokuapp.com/blog
-about us page: https://agile-meadow-84802.herokuapp.com/about
-dispose page: https://agile-meadow-84802.herokuapp.com/dispose
-tweets page: https://agile-meadow-84802.herokuapp.com/tweet
-
+home page :https://agile-meadow-84802.herokuapp.com/home \
+contact us page:https://agile-meadow-84802.herokuapp.com/contact \
+blog page: https://agile-meadow-84802.herokuapp.com/blog \
+about us page: https://agile-meadow-84802.herokuapp.com/about \
+dispose page: https://agile-meadow-84802.herokuapp.com/dispose \
+tweets page: https://agile-meadow-84802.herokuapp.com/tweet \
+ 
 ### Video-
 
 ### Presentation-
