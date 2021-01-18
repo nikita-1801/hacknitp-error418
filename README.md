@@ -16,22 +16,32 @@ https://drive.google.com/file/d/1GKW3a48S3EuPnyqn9iI8yRdpqWI-R6Ip/view?usp=drive
 ### Presentation-
 https://drive.google.com/file/d/1c1p60JtsaJHU8HpeL39fuJoFRE8Ruo7S/view?usp=sharing
 ### Live version-
-Due to some erros in the deployement, the actual site is a litle bit different from the original project
+<b>Due to some erros in the deployement, the actual site is a litle different from the original project.</b>
 
-home page :https://agile-meadow-84802.herokuapp.com/home \
+Home page: https://agile-meadow-84802.herokuapp.com/home
+
 ![home page](https://github.com/nikita-1801/hacknitp-error418/blob/main/home.JPG)
-contact us page:https://agile-meadow-84802.herokuapp.com/contact \
+
+Contact Us page: https://agile-meadow-84802.herokuapp.com/contact \
+
 ![contact us page](https://github.com/nikita-1801/hacknitp-error418/blob/main/contact.JPG)
-blog page: https://agile-meadow-84802.herokuapp.com/blog \
+
+Blog page: https://agile-meadow-84802.herokuapp.com/blog \
+
 ![blog page](https://github.com/nikita-1801/hacknitp-error418/blob/main/blog.JPG)
-about us page: https://agile-meadow-84802.herokuapp.com/about \
+
+About Us page: https://agile-meadow-84802.herokuapp.com/about \
+
 ![about us page](https://github.com/nikita-1801/hacknitp-error418/blob/main/about.JPG)
-dispose page: https://agile-meadow-84802.herokuapp.com/dispose \
+
+Dispose page: https://agile-meadow-84802.herokuapp.com/dispose \
+
 ![dispose page](https://github.com/nikita-1801/hacknitp-error418/blob/main/dispose.JPG)
-tweets page: https://agile-meadow-84802.herokuapp.com/tweet \
+
+Tweets page: https://agile-meadow-84802.herokuapp.com/tweet \
+
 ![tweet page](https://github.com/nikita-1801/hacknitp-error418/blob/main/tweet.JPG)
  
-
 
 ## Made by
 - <a href="https://github.com/devanshi-katyal"> Devanshi Katyal
