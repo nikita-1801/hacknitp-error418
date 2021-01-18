@@ -12,9 +12,9 @@ A one-stop destination for all our eco-friendly needs
 ## Submissions
 
 ### Video-
-
+https://drive.google.com/file/d/1GKW3a48S3EuPnyqn9iI8yRdpqWI-R6Ip/view?usp=drivesdk
 ### Presentation-
-
+https://drive.google.com/file/d/1c1p60JtsaJHU8HpeL39fuJoFRE8Ruo7S/view?usp=sharing
 ### Live version-
 Due to some erros in the deployement, the actual site is a litle bit different from the original project
 
